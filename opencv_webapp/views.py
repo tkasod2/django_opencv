@@ -16,6 +16,7 @@ def first_view(request):
 #     context = {'form':form}
 #     return render (request, 'opencv_webapp/simple_upload.html', context)
 
+# temp comments
 def simple_upload(request):
     if request.method == 'POST':
         # print(request.POST) : <QueryDict: {'csrfmiddlewaretoken': [‘~~~’], 'title': ['upload_1']}>
